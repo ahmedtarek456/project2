@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.nav {
+    background-color: rgb(51, 56, 101);
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+.container {
+    padding-top: 80px;
+}
+
+.product-container {
+    display: flex;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding-top: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+
+}
+
+.buyBlock {
+    background-color: aliceblue;
+    border: 1px solid;
+    border-radius: 2%;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 10px 50px 10px;
+    text-align: center;
+
+}
+
+.buyBlock img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+.lol {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.lol img {
+    width: 50%;
+    border-radius: 2%;
+}
+
+.lol p {
+    text-align: center;
+}
+
+.blocks {}
+
+@media (max-width: 400px) {
+
+    a {
+        font-size: 15px;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-container{
+        flex-wrap: wrap;
+    }
+    .buyBlock{
+        flex: 1 1 30%;
+    }
+
+}
